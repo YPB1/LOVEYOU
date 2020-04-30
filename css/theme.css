@@ -3,7 +3,13 @@ body{background-color:#fff;}
 a{color:#fff;text-decoration:none;}
 #div_container{position:relative;margin:0 auto;width:500px;font-size:1em;}
 .div_pure_words{position:relative;display:none;}
-.div_pure_words_bg{width:500px;min-height:500px;background-size:100%;background-repeat:repeat;background-attachment:fixed;}
+.div_pure_words_bg{width:500px;min-height:500px;background-size:100%;
+    background-repeat:no-repeat;
+    /* background-attachment:fixed; */
+}
+.div_pure_words_bg_bg{
+    background-repeat:no-repeat;
+}
 .div_pure_words_height{visibility:hidden;padding:30px;color:#fff;text-align:justify;white-space:pre-wrap;font-size:1.1em;font-family:"Microsoft YaHei",Arial;}
 .div_pw_typed{position:absolute;top:0;right:0;bottom:0;left:0;padding:30px;width:500px;background:rgba(255,255,255,.8);text-align:justify;}
 #span_pw_typed{width:100%;white-space:pre-wrap;font-size:1.1em;font-family:"Microsoft YaHei",Arial;}

@@ -56,7 +56,7 @@
 		</div>
 	</div>
 	<div class="div_pure_words">
-		<div class="div_pure_words_bg">
+		<div class="div_pure_words_bg_bg">
 			<div class="div_pure_words_height"></div>
 		</div>
 		<div class="div_pw_typed">
@@ -155,8 +155,11 @@ function init_pure_words() {
 	// 初始化设置div的bg图片 初始化设置div的bg图片
 	if (typeof(theme_content['bg_style_pure_words']) != 'undefined' && theme_content['bg_style_pure_words'] == 'bg_opacity') {
 		if (typeof(theme_content['bg_img']) != 'undefined' && theme_content['bg_img'] != '') {
+			$(".div_pure_words_bg_bg").css({
+				"background-image": "url(images/666.jpg)"
+			});
 			$(".div_pure_words_bg").css({
-				"background-image": "url(" + theme_content['bg_img'] + ")"
+				"background-image": "url(images/3.jpg)"
 			});
 		}
 	}
